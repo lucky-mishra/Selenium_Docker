@@ -1,0 +1,24 @@
+Started by user [8mha:////4BBdlT4Wrwoz2bFWT9q/WHjTkog9dtX6OSaqboSG12dmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL93MTKxLzsXABSYXIwwgAAAA==[0mMayank Mishra
+Running as SYSTEM
+Building remotely on [8mha:////4GwxSvwOdX5MphpcWpFpJPBqNMT2nosB48eOKG8dE3LjAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQifZf85OzUIgB/U539xQAAAA==[0mDocker in workspace E:\Advanced_Selenium_Test_Automation_Framework-master\jenkins_slave\workspace\Docker_Test
+[Docker_Test] $ cmd /c call C:\Users\sony\AppData\Local\Temp\jenkins3344643918079910386.bat
+
+E:\Advanced_Selenium_Test_Automation_Framework-master\jenkins_slave\workspace\Docker_Test>docker ps -a 
+CONTAINER ID   IMAGE                                  COMMAND                  CREATED       STATUS                     PORTS                                              NAMES
+f6b47722961b   jenkins/jenkins:lts                    "/usr/bin/tini -- /u…"   3 hours ago   Up 3 hours                 0.0.0.0:8080->8080/tcp, 0.0.0.0:50000->50000/tcp   bold_leakey
+cb76d09edc15   jenkins/jenkins:lts                    "/usr/bin/tini -- /u…"   4 hours ago   Exited (143) 3 hours ago                                                      magical_grothendieck
+ca8be1f30b93   mayankluckym/selenium_2                "/bin/sh -c 'sh heal…"   6 hours ago   Exited (0) 6 hours ago                                                        advanced_selenium_test_automation_framework-master_selenium-framework_1
+440024d12173   selenium/node-firefox:4.5.0-20221004   "/opt/bin/entry_poin…"   6 hours ago   Up 6 hours                 5900/tcp                                           advanced_selenium_test_automation_framework-master_firefox_1
+3050ef521cb8   selenium/node-chrome:4.5.0-20221004    "/opt/bin/entry_poin…"   6 hours ago   Up 6 hours                 5900/tcp                                           advanced_selenium_test_automation_framework-master_chrome_1
+fc2995ab961c   selenium/node-edge:4.5.0-20221004      "/opt/bin/entry_poin…"   6 hours ago   Up 6 hours                 5900/tcp                                           advanced_selenium_test_automation_framework-master_edge_1
+6463255c54c7   selenium/hub:4.5.0-20221004            "/opt/bin/entry_poin…"   6 hours ago   Up 6 hours                 0.0.0.0:4442-4444->4442-4444/tcp                   hub
+bf31dd93a433   mayankluckym/selenium_1:latest         "/bin/sh -c 'mvn -f …"   7 hours ago   Exited (143) 7 hours ago                                                      pensive_wu
+0870b1ccf489   0487899507a1                           "8377890466/selenium…"   13 days ago   Created                    5900/tcp                                           xenodochial_benz
+2374cbdd11bf   selenium/node-chrome:4.5.0-20221004    "/opt/bin/entry_poin…"   4 weeks ago   Exited (143) 8 hours ago                                                      default_chrome_1
+7c3264f113b9   selenium/node-firefox:4.5.0-20221004   "/opt/bin/entry_poin…"   4 weeks ago   Exited (143) 8 hours ago                                                      default_firefox_1
+382605eef97a   selenium/node-edge:4.5.0-20221004      "/opt/bin/entry_poin…"   4 weeks ago   Exited (143) 8 hours ago                                                      default_edge_1
+7fef07c78bce   selenium/hub:4.5.0-20221004            "/opt/bin/entry_poin…"   4 weeks ago   Exited (143) 8 hours ago                                                      selenium-hub
+587a83a47d48   selenium/standalone-chrome             "/opt/bin/entry_poin…"   4 weeks ago   Exited (143) 4 weeks ago                                                      wonderful_pascal
+
+E:\Advanced_Selenium_Test_Automation_Framework-master\jenkins_slave\workspace\Docker_Test>exit 0 
+Finished: SUCCESS
